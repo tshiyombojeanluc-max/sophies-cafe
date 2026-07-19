@@ -2,8 +2,8 @@ const unsplash = (id: string, w: number) =>
   `https://images.unsplash.com/${id}?q=80&w=${w}&auto=format&fit=crop`;
 
 export const images = {
-  heroBg: unsplash("photo-1521017432531-fbd92d768814", 1920),
-  heroMedia: unsplash("photo-1554118811-1e0d58224f24", 1600),
+  heroBg: "/images/hero-bg.jpg",
+  heroMedia: "/images/hero-media.jpg",
   drinks: {
     vanillaLatte: unsplash("photo-1541167760496-1628856ab772", 900),
     matchaLatte: unsplash("photo-1515823064-d6e0c04616a7", 900),
