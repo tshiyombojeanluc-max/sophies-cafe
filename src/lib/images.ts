@@ -30,7 +30,7 @@ export const images = {
     unsplash("photo-1559925393-8be0ec4767c8", 900),
     unsplash("photo-1493857671505-72967e2e2760", 900),
   ],
-  ourSpaceOne: unsplash("photo-1567521464027-f127ff144326", 1200),
-  ourSpaceTwo: unsplash("photo-1517486808906-6ca8b3f04846", 1200),
+  ourSpaceOne: "/images/ourspace-1.jpg",
+  ourSpaceTwo: "/images/ourspace-2.jpg",
   visitMap: unsplash("photo-1524661135-423995f22d0b", 1200),
 };
