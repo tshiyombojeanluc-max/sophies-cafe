@@ -3,14 +3,14 @@ import { FadeIn } from "@/components/site/fade-in";
 import { images } from "@/lib/images";
 
 const captions = [
-  "Latte art, shared over the counter",
-  "A sunlit corner for slow mornings",
-  "Our storefront on a quiet street",
-  "Pour-over brewing behind the counter",
-  "Single-origin beans, hand-selected",
-  "Concrete, bicycles, and the daily board",
-  "Freshly roasted, ready to brew",
-  "Hanging greenery above the bar",
+  "A room built for lingering",
+  "Espresso pulled fresh, cup by cup",
+  "Regulars catching up over coffee",
+  "Monstera and morning light by the window",
+  "Rattan pendants over the espresso bar",
+  "Ceramics and pantry jars on display",
+  "Boucle chairs beneath the banana leaves",
+  "Behind the counter, calm and unhurried",
 ];
 
 export function Gallery() {
