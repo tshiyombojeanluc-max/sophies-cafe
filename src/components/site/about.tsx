@@ -1,7 +1,5 @@
-import Image from "next/image";
 import { Leaf, MapPin, PawPrint, Wifi } from "lucide-react";
 import { FadeIn } from "@/components/site/fade-in";
-import { images } from "@/lib/images";
 
 const stats = [
   {
@@ -28,12 +26,15 @@ export function About() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-14 px-6 md:grid-cols-2 md:gap-20 md:px-10">
         <FadeIn direction="left">
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl">
-            <Image
-              src={images.aboutInterior}
-              alt="Sunlit interior of Sophie's Café with olive trees and wooden tables"
-              fill
-              className="object-cover"
-              sizes="(min-width: 768px) 45vw, 100vw"
+            <video
+              src="/videos/about-brew.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="auto"
+              aria-label="Latte art being poured on a wooden table at Sophie's Café"
+              className="h-full w-full object-cover"
             />
           </div>
         </FadeIn>
